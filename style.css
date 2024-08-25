@@ -18,11 +18,12 @@ body{
 .card{
   width: 90%;
   max-width: 500px;
-  background: linear-gradient(135deg, rgb(70, 205, 196), rgb(33, 104, 203));
+  background: linear-gradient(135deg, rgb(70, 205, 196), rgb(61, 166, 227));
   color: white;
   border-radius: 20px;
   padding: 40px 35px;
   text-align: center;
+  box-shadow: 10px 5px 25px 10px #71c2fd;
 }
 
 .search{
@@ -69,10 +70,10 @@ body{
 
 .weather-icon{
   width: 200px;
-  margin-top: 10px;
 }
 
 .weather h1{
+  margin-top: -40px;
   font-size: 80px;
   font-weight: 600;
 }
